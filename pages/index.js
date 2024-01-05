@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div class="login">
-          Instagram
+          <h1>Instagram</h1>
         </div>
       </main>
     </>
