@@ -17,6 +17,10 @@
   border: 1px solid #bcc0c4;
   width: 300px;
   height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Mobile */
