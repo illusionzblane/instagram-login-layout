@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/instagram.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div>
+        <div class="login">
           Instagram
         </div>
       </main>
