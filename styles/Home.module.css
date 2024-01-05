@@ -7,6 +7,12 @@
   min-height: 100vh;
   background-color: white;
 }
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .login {
   border: 1px solid #bcc0c4;
