@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+.logo {
+  width:100vw;
+  height:80vw;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
 }
