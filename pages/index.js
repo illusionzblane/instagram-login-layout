@@ -16,7 +16,6 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div class="login">
-        <img src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="Instagram Logo"></img>
         </div>
       </main>
     </>
