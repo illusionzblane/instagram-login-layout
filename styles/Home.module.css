@@ -5,7 +5,9 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: white;
 }
+
 .login {
   border: 1px solid #bcc0c4;
 }
