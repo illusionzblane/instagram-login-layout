@@ -8,8 +8,7 @@
 }
 
 .login {
-  border:black;
-  border-width: 1px;
+  border:1px solid black;
 }
 
 /* Mobile */
