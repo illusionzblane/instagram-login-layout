@@ -24,7 +24,7 @@ export default function Home() {
               </div>
               <Button></Button>
               <div className={styles.lineBreak}>
-              <hr width="100%"/><span className={styles.lineBreakText}>OR</span><hr width="100%"/>
+              <hr width="100%" color="#5f5f5f"/><span className={styles.lineBreakText}>OR</span><hr width="100%" color="#5f5f5f"/>
               </div>
               <FaceBookButton></FaceBookButton>
               <span className={styles.password}>Forgot password?</span>
@@ -34,6 +34,9 @@ export default function Home() {
         <span>Don't have an account? <span className={styles.signUpLink}>Sign up</span></span>
           </div>
           <span className={styles.getTheApp}>Get the app.</span>
+        </div>
+        <div className={styles.getApp}>
+        <img src={'/images/getApp.jpg'} width="100%" height="100%"/>
         </div>
       </main>
     </>
