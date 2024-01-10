@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -16,7 +15,10 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.login}>
-            <img src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="Instgram Logo" width="180" height="108"></img>
+            <img className={styles.textLogo} src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="Instgram Logo"></img>
+            <div><input type="text" className={styles.inputField} value="Phone number,username, or email"></input> </div>
+            <div><input type="text" className={styles.inputField} value="Password"></input> </div>
+            <div><button type="button" className={styles.loginButton}>Log In</button></div>
         </div>
       </main>
     </>
