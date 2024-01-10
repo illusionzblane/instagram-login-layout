@@ -7,6 +7,7 @@
   min-height: 100vh;
   background-color: var(--white);
 }
+
 .formField form{
   display: flex;
   flex-direction: column;
@@ -56,4 +57,32 @@
 
 .password:hover{
   cursor: pointer;
+}
+
+.signUp {
+  border: 1px solid var(--grey);
+  width: 320px;
+  height:56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:336px;
+}
+
+.signUpText{
+  margin-top: 20px;
+  font-size:14px;
+}
+.signUpLink {
+  color:var(--blue);
+  font-weight: 500;
+}
+
+.signUpLink:hover{
+  cursor: pointer;
+}
+
+.getTheApp{
+  margin-top: 40px;
+  font-size:13px;
 }

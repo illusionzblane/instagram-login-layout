@@ -1,5 +1,4 @@
 import styles from './Form.module.css'
-import Button from '@/components/Button'
 
 export default function Form() {
     return (

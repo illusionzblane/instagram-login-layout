@@ -29,6 +29,12 @@ export default function Home() {
               <FaceBookButton></FaceBookButton>
               <span className={styles.password}>Forgot password?</span>
         </div>
+        <div className={styles.signUp}>
+          <div className={styles.signUpText}>
+        <span>Don't have an account? <span className={styles.signUpLink}>Sign up</span></span>
+          </div>
+          <span className={styles.getTheApp}>Get the app.</span>
+        </div>
       </main>
     </>
   )
