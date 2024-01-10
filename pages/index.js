@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Button from '@/components/Button'
+import Form from '@/components/Form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,9 +18,13 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.login}>
             <img className={styles.textLogo} src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="Instgram Logo"></img>
-            <div><input type="text" className={styles.inputField} value="Phone number,username, or email"></input> </div>
-            <div><input type="text" className={styles.inputField} value="Password"></input> </div>
-            <div><button type="button" className={styles.loginButton}>Log In</button></div>
+              <div className={styles.formField}>
+              <Form></Form>
+              </div>
+              <Button></Button>
+              <div className={styles.lineBreak}>
+              <hr width="100%"/><span className={styles.lineBreakText}>OR</span><hr width="100%"/>
+              </div>
         </div>
       </main>
     </>

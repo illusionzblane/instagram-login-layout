@@ -1,0 +1,15 @@
+.inputField{
+    background-color:var(--lightGrey);
+    color:var(--darkGrey);
+    margin-top: 6px;
+    padding-left:6px;
+    padding-top:4px;
+    width:236px;
+    border-radius: 2px;
+    height:30px;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid var(--grey);
+    font-size:10px;
+  }

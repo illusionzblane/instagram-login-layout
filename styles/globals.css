@@ -1,2 +1,8 @@
 :root {
+    --grey: rgb(204, 204, 204);
+    --lightBlue: rgb(75,180,248);
+    --darkGrey:rgb(144, 144, 144);
+    --white:rgb(255,255,255);
+    --darkerGrey:rgb(95, 95, 95);
+    --lightGrey:rgb(250, 250, 250);
 }
