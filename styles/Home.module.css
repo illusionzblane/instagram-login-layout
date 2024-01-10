@@ -45,3 +45,15 @@
   color:var(--darkerGrey);
   font-weight:600;
 }
+
+.password{
+  margin-left:20px;
+  margin-right:20px;
+  font-size:11px;
+  color:var(--navy);
+  margin-top:20px;
+}
+
+.password:hover{
+  cursor: pointer;
+}

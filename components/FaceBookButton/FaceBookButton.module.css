@@ -1,0 +1,19 @@
+.btn {
+    background:none;
+    color:var(--navy);
+    border-radius: 7px;
+    border-style:none;
+    font-weight:bold;
+    font-size: 13px;
+    margin-left:2px;
+  }
+
+  .faceBook{
+    display:flex;
+    align-items: center;
+    margin-top: 36px;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }

@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import Form from '@/components/Form'
+import FaceBookButton from '@/components/FaceBookButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,8 @@ export default function Home() {
               <div className={styles.lineBreak}>
               <hr width="100%"/><span className={styles.lineBreakText}>OR</span><hr width="100%"/>
               </div>
+              <FaceBookButton></FaceBookButton>
+              <span className={styles.password}>Forgot password?</span>
         </div>
       </main>
     </>
