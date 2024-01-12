@@ -17,7 +17,7 @@
 .login {
   border: 1px solid var(--grey);
   width: 320px;
-  height:400px;
+  height:378px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,8 +33,9 @@
 .lineBreak{
   display: flex;
   width:76%;
-  margin-top:30px;
+  margin-top:14px;
   align-items: center;
+  margin-bottom:-12px;
 }
 
 .lineBreakText{
@@ -70,7 +71,7 @@
 
 .signUpText{
   margin-top: 20px;
-  font-size:14px;
+  font-size:13px;
 }
 .signUpLink {
   color:var(--blue);
@@ -87,7 +88,11 @@
 }
 
 .getApp{
-  margin-top:-240px;
+  margin-top:-238px;
+}
+
+.getApp:hover{
+  cursor: pointer;
 }
 
 /* Tablet (ipad air)  */

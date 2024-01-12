@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import Form from '@/components/Form'
 import FaceBookButton from '@/components/FaceBookButton'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,7 @@ export default function Home() {
               </div>
               <Button></Button>
               <div className={styles.lineBreak}>
-              <hr width="100%" color="#5f5f5f"/><span className={styles.lineBreakText}>OR</span><hr width="100%" color="#5f5f5f"/>
+              <hr size="1" width="100%" color="#cccccc"/><span className={styles.lineBreakText}>OR</span><hr size="1" width="100%" color="#cccccc"/>
               </div>
               <FaceBookButton></FaceBookButton>
               <span className={styles.password}>Forgot password?</span>
@@ -36,8 +37,11 @@ export default function Home() {
           <span className={styles.getTheApp}>Get the app.</span>
         </div>
         <div className={styles.getApp}>
-        <img src={'/images/getApp.jpg'} width="100%" height="100%"/>
+        <img src={'/images/getApp.jpg'} width="250px" height="40px"/>
         </div>
+        <footer>
+        <Footer></Footer>
+        </footer>
       </main>
     </>
   )
